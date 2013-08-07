@@ -1,38 +1,37 @@
 The Five Elements Challenge
 ===========================
 The five elements are five essential and fundamental game archetypes that have 
-each changed video game history. As a hobbyist game programmer I think every 
-game coder's right of passage should be implementing each archetype in order 
-to conquer that game's specific problem domain. It's a little bit like Luke 
-Skywalker's jedi training culminating in the creation of his own light saber. 
-By the end of the challenge the programmer will have accumulated a body of 
-knowledge and code to weild as a weapon in the face of mental confrontation.
+each changed video game history. As a hobbyist game programmer I think a
+worth while right of passage is to implement each archetype in order to conquer 
+a specific problem domain. It's a little bit like Luke Skywalker's Jedi training 
+culminating in the creation of his own light saber. By the end of the five 
+challenges the programmer will have accumulated a body of knowledge and code to 
+weild as a weapon in the face of mental confrontation.
 
 The Elements
 ============
 Each element is a building block in the quest for game code mastery. Here they
 are listed in (expected) order of increasing difficulty.
 
+    My notes are listed like this and won't be present in the final
+    version.
+
 The Text Adventure
 ------------------
     I'm pretty sure this should be first as it takes the least amount of
-    graphics knowledge. Most coders of most langs will be able to finish
+    graphics knowledge. Programmers of most langs will be able to finish
     this challenge without external libs, etc.
 
-The Ball and Paddle
--------------------
-    Pong, Breakout, etc. Pong seems like the simplest game that includes
-    input, time, and graphics rendering. If the simulation challenge
-    doesn't hold (I'm thinking Roguelike may be a better fit) then it's
-    possible Roguelike should go second, as it can be solved with or 
-    without graphics.
+The Roguelike
+-------------
+    This is a good transition from the text adventure as it can be rendered
+    in text or graphically. If the student decides to move on to grapical
+    rendering then the gameplay can be turn based or continuous. 
 
-The Simulation
---------------
-    This challenge is on the fence for me. I like the idea of conway's
-    game of life being in the challenge but I'm not sure if it's 
-    archetypal of games. Simulations aren't really games until they're
-    game-ified, if you will. I'm thinking of replacing this with Roguelike. 
+The Arcade Classic 
+------------------
+    Pong, Breakout, etc. Pong seems like the simplest game that includes
+    input, time, and graphics rendering. 
 
 The Platformer
 --------------
