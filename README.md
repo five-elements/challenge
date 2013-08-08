@@ -13,32 +13,59 @@ The Elements
 Each element is a building block in the quest for game code mastery. Here they
 are listed in (expected) order of increasing difficulty.
 
-    My notes are listed like this and won't be present in the final
-    version.
+    Side notes are listed like this and mostly act as justification for
+    the choices I've made below.
 
 The Text Adventure
 ------------------
 The text adventure is a game distilled down to its core. Technically it can be 
 interpreted as a simple [REPL](https://en.wikipedia.org/wiki/REPL). Input is
-supplied on the command line and rendering happens on the command line. It is
-almost necessarily turn based. It can be as basic as a 'choose your own 
-adventure' interactive novel. 
-(https://en.wikipedia.org/wiki/Text_adventure)
+supplied on the command line and rendering happens on the command line. It can 
+be as basic as a 'choose your own adventure' interactive novel. 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Text_adventure "Text_Adventure")
 
     I'm pretty sure this should be first as it takes the least amount of
     graphics knowledge. Programmers of most langs will be able to finish
     this challenge without external libs, etc.
 
+#### Concepts ####
+ * Input 
+    - Keyboard
+ * Turn based time
+ * Text rendering
+
+#### Examples ####
+ * Zork
+ * The Hobbit
+ * The Hitchhiker's Guide to the Galaxy
+
 The Roguelike
 -------------
-A roguelike is a dungeon crawler. It can be rendered graphically or in text. 
-The gameplay can be turn-based or continuous. Typically a roguelike introduces
-the concepts of procedural generation of content.
+A roguelike is a dungeon crawler. It introduces the concepts of procedural 
+generation of content and at least slightly more complex rendering, either
+graphically or in text. The gameplay can be turn-based or continuous, which
+gives the student a choice in how fast the rate of programming difficulty 
+increases. A turn-based, text roguelike doesn't have to be much more difficult
+than the text adventure but if the student wants to ramp up fast they can 
+tackle the continuous graphical version.
 
-https://en.wikipedia.org/wiki/Roguelike
-    This is a good transition from the text adventure as it can be rendered
-    in text or graphically. If the student decides to move on to grapical
-    rendering then the gameplay can be turn based or continuous. 
+[Wikipedia](https://en.wikipedia.org/wiki/Roguelike "roguelike")
+
+    A roguelike is so diverse in its implementation that I think it's
+    a great second step. It has a lot of slack with regard to how fast 
+    the student wants to learn new concepts. 
+
+#### Concepts ####
+ * Input 
+    - Keyboard
+    - Mouse (optional)
+ * Turn based time
+ * Continuous time (optional)
+ * Text rendering
+ * Graphical rendering (optional)
+ * Procedural content generation
+    - Maps
 
 The Arcade Classic 
 ------------------
