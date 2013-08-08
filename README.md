@@ -106,8 +106,8 @@ will always be optional and set to the 'advanced' track.
  * Continuous time
  * Graphical rendering
  * Hit testing / Collision
- * Sprite animation (optional)
  * Physics (optional)
+ * Sprite animation (optional)
  * Axxonometric projection (optional)
  * Sound (optional)
 
@@ -135,9 +135,11 @@ etc.
  * Input
     - Keyboard
     - Mouse (optional) 
+    - Joystick / Gamepad (optional)
  * Continuous time
  * Graphical rendering
- * Hit testing Collision 
+ * Sprite animation
+ * Hit testing / Collision 
  * Physics
  * AI (optional)
  * Sound (optional)
@@ -149,15 +151,42 @@ etc.
 
 The First Person Shooter
 ------------------------
-    The most complicated element and the current state of the art game 
-    genre.
+The last step of the challeng is the first person shooter. It is the most 
+complicated part of the challenge and is arguably the current state of the art 
+of game programming. The FPS is a big step up from the platformer. It uses all of the former 
+concepts but takes them into the realm of 3D. 
+
+    A working implementation could be as simple as Wolfenstein 3D, though 
+    in my opinion I think that's still pretty complex. To reduce the complexity 
+    the student could strip out the physics and just use some simple hit 
+    testing. 
+
+#### Concepts ####
+ * Input 
+    - Keyboard
+    - Mouse (optional)
+    - Joystick / Gamepage (optional)
+ * Continuous time
+ * Graphical 3D rendering
+ * Sprite animation
+ * Hit testing / Collision
+ * Mesh animation (optional)
+ * Physics (optional)
+ * AI (optional)
+ * Sound (optional)
+
+#### Examples ####
+ * Wolfenstein 3D
+ * Quake
+ * Halo
+ * Portal
 
 How to Participate
 ==================
 If you'd like to participate in The Five Elements Challenge just fork this repo 
-to your github and start hacking. There's no prizes, deadlines, authorities or 
-rockstars. There are only students, a feeling of accomplishment and the 
-comaraderie of those other fellows of the five elements :)
+to your github and start hacking. There's no prizes, deadlines or authorities. 
+There are only students, a feeling of accomplishment and the comaraderie of 
+those other fellows of the five elements :)
 
 Notes
 -----
