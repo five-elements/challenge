@@ -165,7 +165,7 @@ concepts but takes them into the realm of 3D.
  * Input 
     - Keyboard
     - Mouse (optional)
-    - Joystick / Gamepage (optional)
+    - Joystick / Gamepad (optional)
  * Continuous time
  * Graphical 3D rendering
  * Sprite animation
