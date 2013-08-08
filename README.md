@@ -16,6 +16,12 @@ are listed in (expected) order of increasing difficulty.
     Side notes are listed like this and mostly act as justification for
     the choices I've made below.
 
+For each challenge some concepts are required and some are optional. Generally
+the more optional concepts the student chooses to implement the harder the 
+challenge will be. On the flipside, choosing more optional concepts early on
+may better prepare the student for the next step, which in the long run may make 
+the harder challenges more attainable. Essentially they choose when to suffer. 
+
 The Text Adventure
 ------------------
 The text adventure is a game distilled down to its core. Technically it can be 
@@ -64,17 +70,82 @@ tackle the continuous graphical version.
  * Continuous time (optional)
  * Text rendering
  * Graphical rendering (optional)
+ * Axxonometric projection (optional)
  * Procedural content generation
     - Maps
 
+#### Examples ####
+ * Rogue
+ * Gauntlet
+ * Diablo
+
 The Arcade Classic 
 ------------------
-    Pong, Breakout, etc. Pong seems like the simplest game that includes
-    input, time, and graphics rendering. 
+The arcade classic can take the form of many combinations of gameplay.
+At its core it is a game that is rendered graphically and time is treated
+continuously. The player must be constantly engaged and reacting to events
+unfolding on the screen. It usually involves some amount of hit testing for
+things like projectiles, but not so much as to necessitate an entire physics 
+system. Sprite animation is an advanced track theme, as well as affine 
+transformations. At this point as text-mode is not an option and sound was 
+a vital part of these arcade games, sound should be a requirement, but sound
+is really hard on some langs/platforms (I'm looking at you, Haskell) so sound 
+will always be optional and set to the 'advanced' track.
+
+    Pong seems like the simplest game that includes input, time, and graphics 
+    rendering, though it may be too easy and won't prepare the student for the
+    next step. Something like space invaders would be a good mid track choice.
+    For the advanced track I'm thinking Zaxxon, since it would have to use 
+    some 3D math for hit testing and the isometric z-sorting could be a big
+    challenge.
+
+#### Concepts ####
+ * Input
+     - Keyboard
+     - Mouse (optional)
+ * Continuous time
+ * Graphical rendering
+ * Hit testing / Collision
+ * Sprite animation (optional)
+ * Physics (optional)
+ * Axxonometric projection (optional)
+ * Sound (optional)
+
+#### Examples ####
+ * Asteroids
+ * Breakout
+ * Tetris
+ * Space Invaders / Galaga
+ * Zaxxon
+ * Street Fighter 2
 
 The Platformer
 --------------
-    Definitely an element and somewhat complex at that.
+The flagship genre of 1990's consoles, the platformer dominated the industry
+for [nearly a decade](http://www.gamasutra.com/view/feature/130268/a_detailed_crossexamination_of_.php?page=2).
+Platformers rely heavily upon sprite based animation, collisions and physics
+systems. This makes it a natural progression up from the arcade classic which
+optionally employs those concepts. The challenge can be made harder by 
+experimenting with novel character control schemes or artificial intelligence,
+etc.
+    
+    Some notes would be good here.
+
+#### Concepts ####
+ * Input
+    - Keyboard
+    - Mouse (optional) 
+ * Continuous time
+ * Graphical rendering
+ * Hit testing Collision 
+ * Physics
+ * AI (optional)
+ * Sound (optional)
+
+#### Examples ####
+ * Super Mario Bros
+ * Sonic the Hedgehog
+ * Another World / Flashback
 
 The First Person Shooter
 ------------------------
